@@ -1,0 +1,51 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.header,
+.footer {
+	display: block;
+	background-color: #fffb67;
+	color: black;
+	border: 2px solid black;
+	width: auto;
+	text-align: center;
+}
+
+main {
+	margin: 10px auto;
+}
+
+.block {
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+.menu {
+	float: left;
+	width: 200px;
+	margin-right: 30px;
+}
+
+.map {
+	float: left;
+	width: 800px;
+}
+
+.UI {
+	float: right;
+	margin-left: 20px;
+	box-sizing: border-box;
+	background-color: red;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+	clear: both;
+}
